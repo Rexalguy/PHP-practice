@@ -13,6 +13,7 @@
         echo "{$key} => {$value} <br>";
     }
 
+    setcookie($cookie_name2, $cookie_value2, time() - 7, "/");
 ?>
 
 
@@ -108,5 +109,7 @@
         echo "File content: <br>" . "<pre>" . $content . "</pre>";
 
     ?>
+
+    <a href="insert.php">Add Guest</a>
 </body>
 </html>
